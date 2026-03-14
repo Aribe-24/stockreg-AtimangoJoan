@@ -13,9 +13,19 @@
       padding: 10px;
       border: 1px solid;
       border-radius: 2px;
-      background-color: azure;
+      background-color: antiquewhite;
       text-decoration: none;
-      
+      color: black;
+      font-weight: bold;
+      margin: 5px;     
+ }
+ a:hover{
+  background-color: darkcyan;
+
+ }
+ .box{
+  border: 2px;
+  padding: 20px;
  }
     </style>
 </head>
@@ -24,18 +34,18 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-3">
-      
+        <h2>MENU</h2>
         <a href="dashboard.html">Dashboard</a>
         <a href="Stockregistration.html">Stock Registration</a>
         <a href="salesregistration.html">Sales Registation</a>
         <a href="supplierregistration.html">Supplier Registration</a>  
         <a href="transport">Transport</a>
          </div>
-      
-     
-      <div class="col-9 bg-light ">
+      <div class="col " style="background-color: #FAF0E6;">
+        <h1 class="text-center">NYONDO STORE</h1>
         <h1 class="text-center">Stock Registration Form</h1>
         <form action="">
+          <div class="box">
           <!--Section One-->
           <h2 class="text-center mt-3">Stock Identification</h2>
           <div class="col">
@@ -136,6 +146,7 @@
                 <label for="formGroupExampleInput" class="form-label">Signature</label>
                 <input type="text-area" class="form-control" placeholder="sign here" aria-label="" />
               </div>
+            </div>
             </div>
         </form>
         <div class="row">
